@@ -92,7 +92,7 @@
     "@aws-sdk/client-ses": "^3.1009.0",
     "@brightchain/brightchain-lib": "^0.29.0",
     "@brightchain/db": "^0.29.0",
-    "@brightchain/node-express-suite": "0.29.14",
+    "@brightchain/node-express-suite": "0.29.17",
     "@digitaldefiance/branded-enum": "^0.0.7",
     "@digitaldefiance/branded-interface": "^0.0.5",
     "@digitaldefiance/ecies-lib": "^4.20.2",
