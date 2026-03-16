@@ -2111,7 +2111,7 @@ __metadata:
     "@digitaldefiance/branded-enum": "npm:^0.0.7"
     "@digitaldefiance/branded-interface": "npm:^0.0.5"
     "@digitaldefiance/ecies-lib": "npm:^4.20.2"
-    "@digitaldefiance/express-suite-react-components": "npm:^4.22.3"
+    "@digitaldefiance/express-suite-react-components": "npm:^4.22.6"
     "@digitaldefiance/i18n-lib": "npm:^4.6.4"
     "@digitaldefiance/node-ecies-lib": "npm:^4.23.0"
     "@digitaldefiance/node-express-suite": "npm:^4.23.3"
@@ -2261,9 +2261,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@digitaldefiance/express-suite-react-components@npm:^4.22.3":
-  version: 4.22.3
-  resolution: "@digitaldefiance/express-suite-react-components@npm:4.22.3"
+"@digitaldefiance/express-suite-react-components@npm:^4.22.6":
+  version: 4.22.6
+  resolution: "@digitaldefiance/express-suite-react-components@npm:4.22.6"
   dependencies:
     "@digitaldefiance/i18n-lib": "npm:4.6.4"
     "@digitaldefiance/suite-core-lib": "npm:4.22.2"
@@ -2281,7 +2281,7 @@ __metadata:
     yup: "npm:^1.6.1"
   peerDependencies:
     react-router-dom: 6.29.0
-  checksum: 10c0/50e02d415449b524d168e434fb3c5a20381270de2f8d24c98d73dbfd7dbcdc7fc12bac82313a22fa74a3a001b93e27754516e2c60828a95e0f6b49dbb65b9e73
+  checksum: 10c0/650769658f7dbf1fb4bc31f0b7926d402a6ff56d72d1224f9eed8aaa6b73ffaea9d7292d5d021d344afd1fa43011f142c09607bd9c9bf6447c9a1040594b481b
   languageName: node
   linkType: hard
 

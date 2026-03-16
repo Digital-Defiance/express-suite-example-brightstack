@@ -96,7 +96,7 @@
     "@digitaldefiance/branded-enum": "^0.0.7",
     "@digitaldefiance/branded-interface": "^0.0.5",
     "@digitaldefiance/ecies-lib": "^4.20.2",
-    "@digitaldefiance/express-suite-react-components": "^4.22.3",
+    "@digitaldefiance/express-suite-react-components": "^4.22.6",
     "@digitaldefiance/i18n-lib": "^4.6.4",
     "@digitaldefiance/node-ecies-lib": "^4.23.0",
     "@digitaldefiance/node-express-suite": "^4.23.3",
