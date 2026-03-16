@@ -2012,17 +2012,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightchain/db@npm:^0.29.0":
-  version: 0.29.0
-  resolution: "@brightchain/db@npm:0.29.0"
+"@brightchain/db@npm:^0.29.11":
+  version: 0.29.11
+  resolution: "@brightchain/db@npm:0.29.11"
   dependencies:
     "@noble/hashes": "npm:^1.4.0"
   peerDependencies:
-    "@brightchain/brightchain-lib": ^0.29.0
+    "@brightchain/brightchain-lib": ^0.29.10
     "@digitaldefiance/branded-interface": ^0.0.5
-    "@digitaldefiance/node-express-suite": ^4.23.2
+    "@digitaldefiance/node-express-suite": ^4.23.4
     express: ">=5.0.0"
-  checksum: 10c0/5b9cceaf74c9d1687c161c74ed761cfc330a42e14621d7db3f9bf9ae67a16b33e04ec6ca1f3c12e2a5c09b9e88a580d9f3813f818d0228e6f6151dd8bf0867ad
+  checksum: 10c0/4a12376c8b7f70e42965ef5b74a06f831c042f4c75cc84282ca77f284ebaad6385a668d42846971f2b07c1580aa3f17f8dd72d56354d496ff763597555589331
   languageName: node
   linkType: hard
 
@@ -2106,7 +2106,7 @@ __metadata:
     "@babel/core": "npm:^7.14.5"
     "@babel/preset-react": "npm:^7.14.5"
     "@brightchain/brightchain-lib": "npm:^0.29.0"
-    "@brightchain/db": "npm:^0.29.0"
+    "@brightchain/db": "npm:^0.29.11"
     "@brightchain/node-express-suite": "npm:0.29.14"
     "@digitaldefiance/branded-enum": "npm:^0.0.7"
     "@digitaldefiance/branded-interface": "npm:^0.0.5"
