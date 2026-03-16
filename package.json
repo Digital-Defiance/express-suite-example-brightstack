@@ -90,7 +90,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.1009.0",
-    "@brightchain/brightchain-lib": "^0.29.0",
+    "@brightchain/brightchain-lib": "^0.29.10",
     "@brightchain/db": "^0.29.0",
     "@brightchain/node-express-suite": "0.29.14",
     "@digitaldefiance/branded-enum": "^0.0.7",
