@@ -1,0 +1,19 @@
+import { App, Environment } from '@express-suite-example-brightstack/api-lib';
+import { GlobalActiveContext, CoreLanguageCode, IActiveContext } from '@digitaldefiance/i18n-lib';
+import { join } from 'path';
+
+const env: Environment = new Environment(
+  join(__dirname, '.env'),
+);
+const app: App = new App(env);
+const context = GlobalActiveContext.getInstance<CoreLanguageCode, IActiveContext<CoreLanguageCode>>();
+context.languageContextSpace = 'admin';
+(async () => {
+  try {
+    await app.start();
+  } catch (error) {
+    console.error('Failed to start the application:', error instanceof Error ? error.message : error);
+    console.error('Stack trace:', error instanceof Error ? error.stack : 'No stack trace');
+    process.exit(1);
+  }
+})();
