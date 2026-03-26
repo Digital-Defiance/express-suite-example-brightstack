@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@express-suite-example-brightstack/lib": [
+        "express-suite-example-brightstack-lib/src/index.ts"
+      ],
+      "@express-suite-example-brightstack/react-lib": [
+        "express-suite-example-brightstack-react-lib/src/index.ts"
+      ],
+      "@express-suite-example-brightstack/api-lib": [
+        "express-suite-example-brightstack-api-lib/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
