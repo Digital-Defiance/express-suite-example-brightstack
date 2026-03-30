@@ -91,7 +91,7 @@
     "ethereum-cryptography": "3.2.0"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "^3.1018.0",
+    "@aws-sdk/client-ses": "^3.1019.0",
     "@brightchain/brightchain-lib": "^0.29.23",
     "@brightchain/db": "^0.29.24",
     "@brightchain/node-express-suite": "^0.29.24",
