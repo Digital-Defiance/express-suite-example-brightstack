@@ -109,7 +109,7 @@
     "@emotion/styled": "^11.14.1",
     "@ethereumjs/wallet": "^10.0.0",
     "@mui/icons-material": "^7.3.9",
-    "@mui/material": "^7.3.9",
+    "@mui/material": "^9.0.0",
     "@mui/system": "^7.3.9",
     "@mui/x-date-pickers": "^8.27.2",
     "@noble/hashes": "^2.0.1",
