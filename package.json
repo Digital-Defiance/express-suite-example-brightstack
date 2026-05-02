@@ -136,7 +136,7 @@
     "react-router-dom": "^7.13.2",
     "secp256k1": "^5.0.1",
     "ts-brand": "^0.2.0",
-    "uuid": "^13.0.0"
+    "uuid": "^14.0.0"
   },
   "scripts": {
     "build": "NODE_ENV=production npx nx run-many --target=build --all --configuration=production",
