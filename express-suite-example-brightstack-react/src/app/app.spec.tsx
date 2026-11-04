@@ -21,7 +21,10 @@ describe('App', () => {
     );
     expect(
       getAllByText(
-        new RegExp('Welcome express-suite-example-brightstack-react', 'gi'),
+        new RegExp(
+          'Welcome to digitaldefiance-express-suite-example-brightstack',
+          'gi',
+        ),
       ).length > 0,
     ).toBeTruthy();
   });
