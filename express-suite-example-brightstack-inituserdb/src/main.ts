@@ -6,23 +6,31 @@ import { Constants as AppConstants } from '@express-suite-example-brightstack/ap
 import { GlobalActiveContext, IActiveContext } from '@digitaldefiance/i18n-lib';
 import { IECIESConfig } from '@digitaldefiance/ecies-lib';
 import { ECIESService } from '@digitaldefiance/node-ecies-lib';
+import { CoreLanguageCode } from '@digitaldefiance/i18n-lib';
 import {
-  CoreLanguageCode,
-} from '@digitaldefiance/i18n-lib';
-import { getSuiteCoreTranslation, SuiteCoreStringKey } from '@digitaldefiance/suite-core-lib';
+  getSuiteCoreTranslation,
+  SuiteCoreStringKey,
+} from '@digitaldefiance/suite-core-lib';
 import { randomBytes } from 'crypto';
 import { join } from 'path';
 import { rm } from 'fs/promises';
 
 // Simple debugLog implementation
-function debugLog(debug: boolean, type: 'log' | 'warn' | 'error', ...args: any[]): void {
+function debugLog(
+  debug: boolean,
+  type: 'log' | 'warn' | 'error',
+  ...args: any[]
+): void {
   if (debug) {
     console[type](...args);
   }
 }
 
 async function main() {
-  const context = GlobalActiveContext.getInstance<CoreLanguageCode, IActiveContext<CoreLanguageCode>>();
+  const context = GlobalActiveContext.getInstance<
+    CoreLanguageCode,
+    IActiveContext<CoreLanguageCode>
+  >();
   context.languageContextSpace = 'admin';
 
   const config: IECIESConfig = {
@@ -39,9 +47,7 @@ async function main() {
     process.env.ADMIN_MNEMONIC = mnemonic.value;
     console.log(
       `ADMIN_MNEMONIC="${mnemonic.value}"\n`,
-      getSuiteCoreTranslation(
-        SuiteCoreStringKey.Admin_MakeSureToSetItInEnv,
-      ),
+      getSuiteCoreTranslation(SuiteCoreStringKey.Admin_MakeSureToSetItInEnv),
     );
   }
   if (process.argv.includes('--gen-member-user-mnemonic')) {
@@ -49,9 +55,7 @@ async function main() {
     process.env.MEMBER_MNEMONIC = mnemonic.value;
     console.log(
       `MEMBER_MNEMONIC="${mnemonic.value}"\n`,
-      getSuiteCoreTranslation(
-        SuiteCoreStringKey.Admin_MakeSureToSetItInEnv,
-      ),
+      getSuiteCoreTranslation(SuiteCoreStringKey.Admin_MakeSureToSetItInEnv),
     );
   }
   if (process.argv.includes('--gen-mnemonic-hmac-secret')) {
@@ -59,9 +63,7 @@ async function main() {
     process.env.MNEMONIC_HMAC_SECRET = mnemonicHmacSecret;
     console.log(
       `MNEMONIC_HMAC_SECRET="${mnemonicHmacSecret}"\n`,
-      getSuiteCoreTranslation(
-        SuiteCoreStringKey.Admin_MakeSureToSetItInEnv,
-      ),
+      getSuiteCoreTranslation(SuiteCoreStringKey.Admin_MakeSureToSetItInEnv),
     );
   }
   if (process.argv.includes('--gen-mnemonic-encryption-key')) {
@@ -69,16 +71,11 @@ async function main() {
     process.env.MNEMONIC_ENCRYPTION_KEY = mnemonicEncryptionKey;
     console.log(
       `MNEMONIC_ENCRYPTION_KEY="${mnemonicEncryptionKey}"\n`,
-      getSuiteCoreTranslation(
-        SuiteCoreStringKey.Admin_MakeSureToSetItInEnv,
-      ),
+      getSuiteCoreTranslation(SuiteCoreStringKey.Admin_MakeSureToSetItInEnv),
     );
   }
 
-  const envDir = join(
-    __dirname,
-    '.env',
-  );
+  const envDir = join(__dirname, '.env');
   const env = new BrightDbEnvironment(envDir, true);
 
   const shouldDrop = process.argv.includes('--drop');
@@ -101,13 +98,17 @@ async function main() {
       debugLog(
         env.detailedDebug,
         'log',
-        getSuiteCoreTranslation(SuiteCoreStringKey.Admin_ProceedingToDbInitialization),
+        getSuiteCoreTranslation(
+          SuiteCoreStringKey.Admin_ProceedingToDbInitialization,
+        ),
       );
     } catch (err) {
       debugLog(
         env.detailedDebug,
         'error',
-        getSuiteCoreTranslation(SuiteCoreStringKey.Admin_Error_FailedToDropDatabase),
+        getSuiteCoreTranslation(
+          SuiteCoreStringKey.Admin_Error_FailedToDropDatabase,
+        ),
         err,
       );
       process.exit(2);
@@ -134,9 +135,7 @@ async function main() {
     debugLog(
       env.debug,
       'log',
-      getSuiteCoreTranslation(
-        SuiteCoreStringKey.Admin_UserDatabaseInitialized,
-      ),
+      getSuiteCoreTranslation(SuiteCoreStringKey.Admin_UserDatabaseInitialized),
     );
 
     if (env.detailedDebug) {

@@ -15,12 +15,5 @@ module.exports = {
   transformIgnorePatterns: [
     'node_modules/(?!(.*\\.mjs$|react-router|@remix-run|cookie-es|uuid)/)',
   ],
-  // The published @digitaldefiance/express-suite-react-components (4.x) still
-  // requires 'react-router-dom'. In v7/v8 react-router-dom was merged into
-  // react-router (same names/signatures), so redirect it here so the published
-  // library shares the SAME router context the app's BrowserRouter creates.
-  moduleNameMapper: {
-    '^react-router-dom$': 'react-router',
-  },
   coverageDirectory: '../coverage/express-suite-example-brightstack-react',
 };

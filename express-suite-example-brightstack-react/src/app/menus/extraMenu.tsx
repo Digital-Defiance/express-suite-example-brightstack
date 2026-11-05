@@ -1,4 +1,7 @@
-import { createMenuType, IMenuConfig } from '@digitaldefiance/express-suite-react-components';
+import {
+  createMenuType,
+  IMenuConfig,
+} from '@digitaldefiance/express-suite-react-components';
 import { Dashboard } from '@mui/icons-material';
 
 const ExtraMenu = createMenuType('ExtraMenu');

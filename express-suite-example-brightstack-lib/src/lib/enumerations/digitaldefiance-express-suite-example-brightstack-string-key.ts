@@ -16,14 +16,16 @@ import { createI18nStringKeys } from '@digitaldefiance/i18n-lib';
  * };
  * ```
  */
-export const DigitaldefianceExpressSuiteExampleBrightstackStringKey = createI18nStringKeys('DigitaldefianceExpressSuiteExampleBrightstack', {
-  SiteTitle: 'siteTitle',
-  SiteDescription: 'siteDescription',
-  SiteTagline: 'siteTagline',
-} as const);
+export const DigitaldefianceExpressSuiteExampleBrightstackStringKey =
+  createI18nStringKeys('DigitaldefianceExpressSuiteExampleBrightstack', {
+    SiteTitle: 'siteTitle',
+    SiteDescription: 'siteDescription',
+    SiteTagline: 'siteTagline',
+  } as const);
 
 /**
  * Type alias for the branded string key values.
  * Use this when you need to type a variable that holds a string key value.
  */
-export type DigitaldefianceExpressSuiteExampleBrightstackStringKeyValue = typeof DigitaldefianceExpressSuiteExampleBrightstackStringKey[keyof typeof DigitaldefianceExpressSuiteExampleBrightstackStringKey];
+export type DigitaldefianceExpressSuiteExampleBrightstackStringKeyValue =
+  (typeof DigitaldefianceExpressSuiteExampleBrightstackStringKey)[keyof typeof DigitaldefianceExpressSuiteExampleBrightstackStringKey];

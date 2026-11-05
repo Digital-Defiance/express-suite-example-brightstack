@@ -12,5 +12,7 @@ export const environment: IEnvironment = {
   production: false,
   siteUrl: server ?? 'https://express-suite.digitaldefiance.org',
   apiUrl:
-    server !== undefined ? `${server}/api` : 'https://express-suite.digitaldefiance.org/api',
+    server !== undefined
+      ? `${server}/api`
+      : 'https://express-suite.digitaldefiance.org/api',
 };
