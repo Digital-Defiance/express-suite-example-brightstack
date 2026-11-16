@@ -101,7 +101,7 @@
     "@digitaldefiance/express-suite-react-components": "^5.0.0",
     "@digitaldefiance/i18n-lib": "^4.7.4",
     "@digitaldefiance/node-ecies-lib": "^5.1.6",
-    "@digitaldefiance/node-express-suite": "^5.0.0",
+    "@digitaldefiance/node-express-suite": "^6.0.0",
     "@digitaldefiance/reed-solomon-erasure.wasm": "^1.0.2",
     "@digitaldefiance/secrets": "^2.0.7",
     "@digitaldefiance/suite-core-lib": "^5.0.0",
