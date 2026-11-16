@@ -2365,54 +2365,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@digitaldefiance/i18n-lib@npm:4.7.3":
-  version: 4.7.3
-  resolution: "@digitaldefiance/i18n-lib@npm:4.7.3"
-  dependencies:
-    "@digitaldefiance/branded-enum": "npm:0.0.7"
-    currency-codes: "npm:^2.2.0"
-    lru-cache: "npm:^5.1.1"
-    moment: "npm:^2.30.1"
-    moment-timezone: "npm:^0.6.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@digitaldefiance/branded-interface": ^0.0.5
-  checksum: 10c0/73fe5c9f8461b66aa1e5ee4c66ae668ebff0536cf9169213971174a683fc6336651f431c1b8d1890bb2bb9a6ed41908eea5086edb631c900cb8704d61790e1e6
-  languageName: node
-  linkType: hard
-
-"@digitaldefiance/i18n-lib@npm:4.7.4, @digitaldefiance/i18n-lib@npm:^4.7.4":
-  version: 4.7.4
-  resolution: "@digitaldefiance/i18n-lib@npm:4.7.4"
-  dependencies:
-    "@digitaldefiance/branded-enum": "npm:0.0.7"
-    currency-codes: "npm:^2.2.0"
-    lru-cache: "npm:^5.1.1"
-    moment: "npm:^2.30.1"
-    moment-timezone: "npm:^0.6.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@digitaldefiance/branded-interface": ^0.0.5
-  checksum: 10c0/8e3f61459d20802a23b17d6e3eb4090f2803c2759d23331cd2976d822af019cefb7e6a27549351792644e49034e8752e33825921fc1719af0b3c0c0a48e3f1c2
-  languageName: node
-  linkType: hard
-
-"@digitaldefiance/i18n-lib@npm:4.7.5":
-  version: 4.7.5
-  resolution: "@digitaldefiance/i18n-lib@npm:4.7.5"
-  dependencies:
-    "@digitaldefiance/branded-enum": "npm:0.0.7"
-    currency-codes: "npm:^2.2.0"
-    lru-cache: "npm:^5.1.1"
-    moment: "npm:^2.30.1"
-    moment-timezone: "npm:^0.6.0"
-    tslib: "npm:^2.3.0"
-  peerDependencies:
-    "@digitaldefiance/branded-interface": ^0.0.5
-  checksum: 10c0/47cd20e3d8a4f329920e3ad192f1e7b80c1ea44e6e2663a4c197344dcf998d00fa3e47c9dfeb5d95778c7d2122f2c60f31108de7906138cd129989f63683d7fd
-  languageName: node
-  linkType: hard
-
 "@digitaldefiance/i18n-lib@npm:4.8.0":
   version: 4.8.0
   resolution: "@digitaldefiance/i18n-lib@npm:4.8.0"
